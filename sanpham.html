@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Mỹ Phẩm Trúc Mai - Các Sản Phẩm</title>
+    <style>
+        body {
+            background-color: #6d072b;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        #wrapper {
+            width: 950px;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+            header img {
+                height: 80px;
+            }
+        nav {
+            background-color: #f7941d;
+            padding: 10px;
+            border: 1px solid white;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 0 15px;
+                font-weight: bold;
+                font-size: 13px;
+            }
+        #content-area {
+            display: flex;
+            gap: 20px;
+        }
+        aside {
+            width: 180px;
+        }
+
+        .menu-item img {
+            display: block;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .login-box {
+            margin-top: 20px;
+            font-size: 13px;
+        }
+            .login-box input {
+                width: 160px;
+                margin: 5px 0;
+            }
+        .btn-submit {
+            background: #f7941d;
+            color: white;
+            border: 1px solid white;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        main {
+            flex: 1;
+        }
+        h2 {
+            border-bottom: 1px solid #912b4b;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 22px;
+        }
+        .product-item {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 25px;
+            align-items: flex-start;
+            border-bottom: 1px dashed #912b4b;
+            padding-bottom: 20px;
+        }
+        .picture-frame {
+            background-color: #fff;
+            padding: 5px;
+            border: 1px solid #ccc;
+            display: table; 
+            width: auto;
+        }
+            .picture-frame img {
+                display: block;
+                width: 150px;
+                height: auto;
+            }
+
+        .frame-caption {
+            color: #333;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .product-info {
+            flex: 1;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+            .product-info h3 {
+                margin-top: 0;
+                color: #f7941d;
+                font-size: 16px;
+            }
+
+        footer {
+            text-align: center;
+            font-size: 11px;
+            padding: 20px;
+            border-top: 1px solid #912b4b;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="wrapper">
+        <header>
+            <img src="Images/logo.jpg" class="logo-main" alt="Logo" style="
+    width: 100px;
+">
+            <img src="Images/my_pham.gif" class="my-pham-text" alt="MYPHAM.com"
+                 style="
+    width: 350px;
+">
+            <img src="Images/banner.gif" class="banner-bg" alt="Banner" style="
+    width: 500px;
+">
+        </header>
+
+        <nav>
+            <a href="TrangChu.html">TRANG CHỦ</a> | <a href="gioithieu.html">GIỚI THIỆU</a> | <a href="sanpham.html">SẢN PHẨM</a> | <a href="#">HỎI ĐÁP</a> | <a href="#">TƯ VẤN</a> | <a href="#">GIỎ HÀNG</a> | <a href="#">LIÊN HỆ</a>
+        </nav>
+
+        <div id="content-area">
+            <aside>
+                <div class="menu-item"><img src="Images/trang_diem.gif" /></div>
+                <div class="menu-item"><img src="Images/duong_da.gif" /></div>
+                <div class="menu-item"><img src="Images/nuoc_hoa.gif" /></div>
+                <div class="menu-item"><img src="Images/duong_toc.gif" /></div>
+                <div class="menu-item"><img src="Images/duong_the.gif" /></div>
+                <div class="menu-item"><img src="Images/nam_gioi.gif" /></div>
+                    
+
+                    <div class="login-box">
+                        <img src="Images/tuongtrung.jpg" />
+                        <strong>TÌM KIẾM</strong><br>
+                        <input type="text" placeholder="Tìm kiếm...">
+                        <button class="btn-submit">Tìm</button>
+                        <br><br>
+                        <strong>ĐĂNG NHẬP</strong><br>
+                        Tên: <input type="text"><br>
+                        Pass: <input type="password"><br>
+                        <button class="btn-submit">Vào</button>
+                    </div>
+</aside>
+
+            <main>
+                <h2>CÁC SẢN PHẨM</h2>
+
+                <div class="product-item">
+                    <div class="picture-frame">
+                        <img src="Images/sp1.jpg" />
+                        <div class="frame-caption">SKIN CARE</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>1.Các bộ dưỡng da cao cấp</h3>
+                        <p> Nhờ thành phần chiết xuất từ thiên nhiên, sử dụng những bộ dưỡng da cao cấp là phương pháp dưỡng da tối ưu nhất giúp giảm sự lão hóa và bảo vệ cho da. Coréana là mỹ phẩm dưỡng da cao cấp với đặc trưng cơ bản là giúp chăm sóc sửa chữa da với những thành phần có khả năng thấm sâu qua lớp biểu bì - khả năng nuôi dưỡng tế bào da từ bên trong.</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="picture-frame">
+                        <img src="Images/sp2.jpg" />
+                        <div class="frame-caption">SPECIAL MASK</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>2.Các loại mặt nạ</h3>
+                        <p>Khi sử dụng các bộ dưỡng da nên dùng kèm theo 1 loại mặt nạ phù hợp với da bởi mặt nạ sẽ giúp làm sạch sâu, giúp bổ sung thêm chất nuôi dưỡng da, giúp tăng tính đàn hồi săn chắc cho da.</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="picture-frame">
+                        <img src="Images/sp4.jpg" />
+                        <div class="frame-caption">AHA 22.000</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>3.AHA 22.000 (Essence đặc trị)</h3>
+                        <p>Là tinh dầu thực vật có khả năng nuôi dưỡng tế bào da, tác động mạnh đến quá trình cấu tạo tế bào da, giúp xóa vết thâm (do trứng cá để lại), giảm sự phát sinh nếp nhăn và giảm hiện trạng phát sinh nám trên da mặt.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            Trang web được xây dựng bởi T3H Corp, 2026 ©
+        </footer>
+    </div>
+
+</body>
+</html>
